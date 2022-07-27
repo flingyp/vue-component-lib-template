@@ -20,5 +20,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [vue(), dts()],
+  plugins: [vue(), dts({ include: "./core" })],
 });

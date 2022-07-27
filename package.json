@@ -6,12 +6,11 @@
   "type": "module",
   "main": "./dist/bundle.js",
   "module": "./dist/bundle.js",
-  "types": "./dist/core/index.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "vite",
+    "dev:example": "npm -C example run dev",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "dev:example": "npm -C example run dev"
+    "preview": "npm -C example run build && npm -C example run preview"
   },
   "dependencies": {
     "vue": "^3.2.37"

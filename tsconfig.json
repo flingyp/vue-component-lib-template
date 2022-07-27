@@ -18,5 +18,6 @@
     "core/**/*.d.ts",
     "core/**/*.vue",
     "vite-env.d.ts"
-  ]
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
