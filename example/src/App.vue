@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MyButton } from "@lib/core";
+  import { MyButton } from '@lib/core'
 </script>
 
 <template>
